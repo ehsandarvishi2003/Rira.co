@@ -1,8 +1,8 @@
-﻿namespace ConsoleApp3
+namespace ConsoleApp3
 {
     internal class Program
     {
-        public class Public
+        public class Data
         {
             public int Id { get; set; }
             public string Name { get; set; }
@@ -13,17 +13,17 @@
         {
             #region Static data
 
-            List<Public> products = new List<Public>
+            List<Data> products = new List<Data>
             {
-                new Public { Id = 1, Name = "Product A", Category = "Category 1", Price = 100
+                new Data { Id = 1, Name = "Product A", Category = "Category 1", Price = 100
             },
-                new Public { Id = 2, Name = "Product B", Category = "Category 2", Price = 150
+                new Data { Id = 2, Name = "Product B", Category = "Category 2", Price = 150
             },
-                new Public { Id = 3, Name = "Product C", Category = "Category 1", Price = 120
+                new Data { Id = 3, Name = "Product C", Category = "Category 1", Price = 120
             },
-                new Public { Id = 4, Name = "Product D", Category = "Category 3", Price = 200
+                new Data { Id = 4, Name = "Product D", Category = "Category 3", Price = 200
             },
-                new Public { Id = 5, Name = "Product E", Category = "Category 2", Price = 80 }
+                new Data { Id = 5, Name = "Product E", Category = "Category 2", Price = 80 }
             };
 
             #endregion
